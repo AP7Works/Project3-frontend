@@ -1,0 +1,39 @@
+/* Custom styles for the page */
+body {
+  background-color: #6E8894;  /* Light background */
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Style for the Song of the Day Section */
+h3.text-success {
+  font-size: 1.5rem;
+}
+
+button.btn-primary {
+  background-color: #85BAA1;
+  border: none;
+  color: black;
+}
+
+button.btn-primary:hover {
+  background-color: #CEEDDB;
+}
+
+/* Add margin between the song items */
+.list-group-item {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.list-group-item strong {
+  font-size: 1.1rem;
+}
+
+.text-danger {
+  font-weight: bold;
+}
